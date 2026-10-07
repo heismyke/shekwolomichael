@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Dhylapse">
+  <!-- A countdown ring, three-quarters run, and the moment that lapses. -->
+  <path d="M32 10 A22 22 0 1 1 10 32" fill="none" stroke="#245b56" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="16.4" cy="16.4" r="4.6" fill="#57b794"/>
+</svg>

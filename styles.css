@@ -99,3 +99,6 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
 .brand-servafri .brand-lockup img { width: 100px; height: 100px; }
 .brand-servafri .brand-lockup { gap: 8px; }
 .project.project-wide { grid-column: 1 / -1; }
+
+.brand-aebello { background: #faf0d6; color: #125e45; }
+.brand-dhylapse { background: #e3efea; color: #245b56; }
