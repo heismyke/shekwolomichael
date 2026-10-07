@@ -36,7 +36,7 @@ Then visit [localhost:8000](http://localhost:8000).
 | `assets/logos/` | Product brand assets from the respective project repositories |
 | `styles.css` | Layout, typography, colors, and responsive styles |
 | `script.js` | Mobile navigation behavior |
-| `assets/images/michael-shekwolo.jpg` | Profile portrait in the About section |
+| `assets/images/michael-shekwolo.jpg` | Profile portrait in the hero section |
 | `myke.png` | Site icon and social preview image |
 | `resume.pdf` | Linked resume |
 | `robots.txt` | Crawler guidance and sitemap location |
