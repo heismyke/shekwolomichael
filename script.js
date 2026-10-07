@@ -1,13 +1,19 @@
 const button = document.querySelector('.menu-button');
 const nav = document.querySelector('.site-nav');
-button.addEventListener('click', () => {
-  const open = nav.classList.toggle('open');
-  button.setAttribute('aria-expanded', open);
-  button.textContent = open ? 'Close' : 'Menu';
+function setMenuOpen(open) {
+  nav.classList.toggle('open', open);
+  button.setAttribute('aria-expanded', String(open));
+  button.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+}
+button.addEventListener('click', () => setMenuOpen(button.getAttribute('aria-expanded') !== 'true'));
+nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setMenuOpen(false)));
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {
+    setMenuOpen(false);
+    button.focus();
+  }
 });
-nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-  nav.classList.remove('open'); button.setAttribute('aria-expanded', 'false'); button.textContent = 'Menu';
-}));
+window.matchMedia('(max-width: 720px)').addEventListener('change', () => setMenuOpen(false));
 
 const projectGrid = document.querySelector('#project-grid');
 const pagination = document.querySelector('.project-pagination');

@@ -245,3 +245,18 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
   .hero-note { width: 80%; max-width: 310px; margin: 0; }
   .hero-note p { font-size: 13px; margin-bottom: 18px; }
 }
+
+/* Consistent navigation icons and accessible mobile toggle. */
+.menu-button { width: 44px; height: 44px; padding: 10px; cursor: pointer; }
+.menu-icon { display: flex; flex-direction: column; gap: 5px; }
+.menu-icon i { display: block; width: 24px; height: 2px; background: currentColor; transition: transform .2s, opacity .2s; }
+.menu-button[aria-expanded="true"] i:first-child { transform: translateY(7px) rotate(45deg); }
+.menu-button[aria-expanded="true"] i:nth-child(2) { opacity: 0; }
+.menu-button[aria-expanded="true"] i:last-child { transform: translateY(-7px) rotate(-45deg); }
+.menu-button:focus-visible { outline: 2px solid var(--coral); outline-offset: 3px; }
+.nav-cta { display: inline-flex; align-items: center; gap: 10px; }
+.contact-icon { display: block; width: 22px; height: 22px; flex-shrink: 0; }
+.nav-cta .contact-icon { color: var(--lime); }
+.contact a { gap: 14px; }
+.contact a .contact-icon { width: 28px; height: 28px; color: var(--ink); }
+@media (prefers-reduced-motion: reduce) { .menu-icon i { transition: none; } }
