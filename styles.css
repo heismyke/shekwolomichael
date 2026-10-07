@@ -192,12 +192,9 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
 .experience-masthead { border-top: 3px double #15252166; border-bottom: 3px double #15252166; padding-top: 16px; }
 .experience-edition { display: flex; justify-content: space-between; gap: 20px; }
 .experience-editorial .experience-masthead h2 { max-width: none; text-align: center; line-height: 1.05; margin: 26px 0 32px; }
-.experience-editorial .principles { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); margin-top: 30px; }
-.experience-editorial .principles article { grid-column: span 2; display: flex; flex-direction: column; padding: 0 28px 30px; border-top: 0; border-left: 1px solid #15252133; }
+.experience-editorial .principles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 30px; }
+.experience-editorial .principles article { display: flex; flex-direction: column; padding: 0 28px 30px; border-top: 0; border-left: 1px solid #15252133; }
 .experience-editorial .principles article:first-child { border-left: 0; padding-left: 0; }
-.experience-editorial .principles article:nth-child(3) { padding-right: 0; }
-.experience-editorial .principles article:nth-child(n+4) { grid-column: span 3; border-top: 1px solid #15252155; padding-top: 28px; padding-bottom: 0; }
-.experience-editorial .principles article:nth-child(4) { border-left: 0; padding-left: 0; }
 .experience-editorial .principles article:last-child { padding-right: 0; }
 .experience-editorial .principles article > span { display: block; margin-bottom: 14px; }
 .experience-editorial .principles h3 { font-family: var(--serif); line-height: 1.2; margin-bottom: 12px; }
@@ -212,8 +209,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
   .experience-edition .eyebrow { font-size: 10px; }
   .experience-editorial .experience-masthead h2 { margin: 23px 0 26px; }
   .experience-editorial .principles { display: block; margin-top: 0; }
-  .experience-editorial .principles article,
-  .experience-editorial .principles article:nth-child(n+4) { padding: 25px 0; border-left: 0; border-top: 1px solid #15252155; }
+  .experience-editorial .principles article { padding: 25px 0; border-left: 0; border-top: 1px solid #15252155; }
   .experience-editorial .principles article:first-child { border-top: 0; }
   .experience-editorial .principles article:last-child { padding-bottom: 0; }
 }
