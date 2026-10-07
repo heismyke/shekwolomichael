@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://myke.me/sitemap.xml
+Sitemap: https://michaelshekwolo.com/sitemap.xml

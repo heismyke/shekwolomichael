@@ -2,11 +2,11 @@
 
 My personal portfolio as a backend and full-stack software engineer focused on Golang, scalable APIs, event-driven services, and cloud architecture.
 
-**Website:** [myke.me](https://myke.me/)
+**Website:** [michaelshekwolo.com](https://michaelshekwolo.com/)
 
 ## About the site
 
-The portfolio brings together my selected projects, professional experience, education, resume, and contact details. Featured work includes ZenerLink, Idahvis, Heartystyles, Vaccy, IMDB Clone, and Secure Me.
+The portfolio brings together my selected projects, professional experience, education, resume, and contact details. Featured work includes ZenerLink, Needbanc, Redd, Cofikra, ZumaOS, and PCE. Each project card opens a dedicated detail page with a product overview, features, technology stack, and a product link where a public URL is available.
 
 Built with HTML, CSS, and vanilla JavaScript, the site includes responsive layouts, a mobile navigation menu, social sharing metadata, structured data, and a sitemap. There are no package dependencies or build steps. Fonts are loaded from Google Fonts.
 
@@ -32,6 +32,8 @@ Then visit [localhost:8000](http://localhost:8000).
 | File | Purpose |
 | --- | --- |
 | `index.html` | Portfolio content, page metadata, and structured data |
+| `projects/` | Standalone product detail pages |
+| `assets/logos/` | Product brand assets from the respective project repositories |
 | `styles.css` | Layout, typography, colors, and responsive styles |
 | `script.js` | Mobile navigation behavior |
 | `myke.png` | Site icon and social preview image |
@@ -41,7 +43,7 @@ Then visit [localhost:8000](http://localhost:8000).
 
 ## Update and deploy
 
-Edit `index.html` to update projects, experience, and contact details. Adjust `styles.css` for visual changes and replace `resume.pdf` when publishing a new resume.
+Edit `index.html` to update projects, experience, and contact details. Edit the matching page in `projects/` for product details and outbound links. Adjust `styles.css` for visual changes and replace `resume.pdf` when publishing a new resume.
 
 Deploy the repository root to a static web host; no build command is required. If the domain changes, update the URLs in `index.html`, `robots.txt`, and `sitemap.xml`. Keep the sitemap's `lastmod` date aligned with substantive site updates.
 
