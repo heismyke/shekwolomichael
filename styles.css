@@ -260,3 +260,5 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
 .contact a { gap: 14px; }
 .contact a .contact-icon { width: 28px; height: 28px; color: var(--ink); }
 @media (prefers-reduced-motion: reduce) { .menu-icon i { transition: none; } }
+
+.project-open svg { display: block; width: 24px; height: 24px; }
