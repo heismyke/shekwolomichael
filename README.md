@@ -53,3 +53,5 @@ Deploy the repository root to a static web host; no build command is required. I
 - **Email:** [mickienorman5@gmail.com](mailto:mickienorman5@gmail.com)
 - **GitHub:** [heismyke](https://github.com/heismyke)
 - **LinkedIn:** [Michael Shekwolo](https://linkedin.com/in/michael-shekwolo)
+
+The site includes canonical URLs, social preview metadata, structured data, and a sitemap. Portrait favicons are provided at 48px and 512px, with a 180px Apple touch icon.
