@@ -174,3 +174,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
 .aebello-wordmark { display: inline-flex; align-items: baseline; gap: .03em; font: 700 clamp(38px, 4vw, 56px)/1 "Bricolage Grotesque", var(--sans); letter-spacing: -.02em; white-space: nowrap; }
 .aebello-wordmark img { display: block; width: auto; height: .72em; }
 .project-banner .aebello-wordmark { font-size: clamp(48px, 7vw, 80px); }
+
+/* Employment details from the supplied LinkedIn profile. */
+.principles .experience-company { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
+.principles .experience-meta { font-size: 12px; line-height: 1.6; margin-bottom: 14px; }
