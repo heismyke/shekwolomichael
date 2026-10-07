@@ -214,14 +214,8 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
   .experience-editorial .principles article:last-child { padding-bottom: 0; }
 }
 
-/* The portrait sits within the hero artwork; decoration stays hidden from assistive technology. */
-.hero-visual { position: relative; width: 100%; max-width: 420px; justify-self: end; }
-.hero-visual .hero-art { max-width: none; }
-.hero-visual .profile-portrait { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0; width: 90%; text-align: center; }
-.hero-visual .profile-portrait img { width: clamp(144px, 16vw, 210px); height: clamp(144px, 16vw, 210px); }
-.hero-visual .profile-portrait figcaption { display: inline-block; background: var(--paper); padding: 7px 12px; border-radius: 20px; }
+/* Text-only hero. */
+.hero { grid-template-columns: 1fr; }
 @media (max-width: 720px) {
-  .hero-visual { max-width: 340px; justify-self: center; }
-  .hero-visual .profile-portrait img { width: 144px; height: 144px; }
-  .hero-visual .profile-portrait figcaption { margin-top: 10px; }
+  .hero { padding-bottom: 40px; }
 }
