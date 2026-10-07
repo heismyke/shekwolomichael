@@ -178,3 +178,11 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
 /* Employment details from the supplied LinkedIn profile. */
 .principles .experience-company { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
 .principles .experience-meta { font-size: 12px; line-height: 1.6; margin-bottom: 14px; }
+
+/* Profile portrait in the About section. */
+.profile-portrait { margin: 0 auto 32px; }
+.profile-portrait img { display: block; width: 176px; height: 176px; margin: 0 auto; border-radius: 50%; object-fit: cover; object-position: center 40%; border: 4px solid var(--paper); }
+.profile-portrait figcaption { margin-top: 16px; font: 500 12px var(--mono); letter-spacing: .3px; }
+@media (max-width: 720px) {
+  .profile-portrait img { width: 144px; height: 144px; }
+}
