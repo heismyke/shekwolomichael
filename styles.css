@@ -93,3 +93,9 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* ServAfri uses the current brand asset from its website repository. */
+.brand-servafri { background: #f0f3f6; color: #151b25; }
+.brand-servafri .brand-lockup img { width: 100px; height: 100px; }
+.brand-servafri .brand-lockup { gap: 8px; }
+.project.project-wide { grid-column: 1 / -1; }
