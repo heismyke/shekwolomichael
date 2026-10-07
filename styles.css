@@ -219,3 +219,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
 @media (max-width: 720px) {
   .hero { padding-bottom: 40px; }
 }
+
+/* Graph-paper texture for the hero. */
+.hero {
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(to right, #15252112 1px, transparent 1px),
+    linear-gradient(to bottom, #15252112 1px, transparent 1px);
+  background-size: 32px 32px;
+}
