@@ -228,3 +228,9 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--coral); outline
     linear-gradient(to bottom, #15252112 1px, transparent 1px);
   background-size: 32px 32px;
 }
+
+/* Keep the notebook background as a quiet opening panel. */
+.hero { min-height: 360px; }
+@media (max-width: 720px) {
+  .hero { min-height: 240px; }
+}
