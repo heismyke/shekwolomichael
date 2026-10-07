@@ -1,0 +1,24 @@
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Local editor settings and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local environment variables (keep example configurations)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local tooling and hosting metadata
+node_modules/
+.vercel/
+.netlify/
+*.log
